@@ -161,6 +161,7 @@ export function __pr6020StreamStateSmoke() {
       globalThis.localStorage = {{ getItem() {{ return null; }}, setItem() {{}}, removeItem() {{}} }};
       globalThis.location = {{}};
       globalThis.history = {{}};
+      globalThis.navigator = {{ platform: '' }};
       globalThis.MutationObserver = class {{ observe() {{}} }};
       globalThis.CustomEvent = class {{}};
       globalThis.Storage = class {{}};
